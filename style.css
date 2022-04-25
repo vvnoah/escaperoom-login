@@ -22,21 +22,6 @@ body {
     padding-right: 15px;
 }
 
-.circles {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 4px solid #333;
-    margin: 0 0.5rem;
-    background-color: red;
-}
-
 form {
     width: 420px;
     height: 150px;
@@ -61,21 +46,21 @@ form fieldset {
     height: 35px;
     text-align: center;
     font-size: 2rem;
-    color: white;
 }
 
 .pin input:focus{
     outline: none;
 }
 
-form p {
-    margin-top: 20px;
-    font-size: 1.5rem;
+form button {
+    margin-top: 15px;
+    border: 3px lightgray outset;
+    background-color: lightgray;
 }
 
-.red{background-color: red; border: 3px red outset;}
-.pink{background-color: pink; border: 3px pink outset;}
-.green{background-color: green; border: 3px green outset;}
-.blue {background-color: blue; border: 3px blue outset;}
-.white{background-color: white; border: 3px white outset;}
-.black{background-color: black; border: 3px black outset;}
+.red{background-color: red; color: black; border: 3px red outset;}
+.pink{background-color: pink; color:black; border: 3px pink outset;}
+.green{background-color: green; color: black; border: 3px green outset;}
+.blue {background-color: blue; color: black; border: 3px blue outset;}
+.white{background-color: white; color: black; border: 3px white outset;}
+.black{background-color: black; color: white; border: 3px black outset;}

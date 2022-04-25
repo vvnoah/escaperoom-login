@@ -30,7 +30,8 @@ function validate(){
       window.location = "solution.html";
       
     } else {
-      
+      event.preventDefault();
+      window.location = "incorrect.html";
       //alert("pincode wrong");
     }
 }
