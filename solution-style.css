@@ -23,8 +23,8 @@ body {
 }
 
 form {
-    width: 420px;
-    height: 420px;
+    width: 1000px;
+    height: 620px;
     margin: auto;
     text-align: center;
     color: white;
@@ -33,5 +33,13 @@ form {
 
 form fieldset {
     border: 2px solid white;
-    height: 420px;
+    height: 620px;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+ul li {
+    text-align: left;
 }

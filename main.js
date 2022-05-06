@@ -12,7 +12,7 @@ inputs.forEach((input, key)=>{
 
     input.addEventListener('keyup', function () {
         if (input.value) {
-          if (key === 5) {
+          if (key === 4) {
             userCode = [...inputs].map((input) => input.value).join('');
           } else {
             inputs[key + 1].focus();
@@ -22,7 +22,7 @@ inputs.forEach((input, key)=>{
 });
 
 function validate(){
-    const pincode = 123456;
+    const pincode = 53874;
     //alert(userCode);
     if (userCode == pincode) {
       //alert("pincode is correct");
