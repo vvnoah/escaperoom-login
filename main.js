@@ -22,7 +22,7 @@ inputs.forEach((input, key)=>{
 });
 
 function validate(){
-    const pincode = 5387;
+    const pincode = 5384;
     //alert(userCode);
     if (userCode == pincode) {
       //alert("pincode is correct");
